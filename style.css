@@ -1,0 +1,361 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none ;
+}
+header{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    
+
+}
+.logo img{
+    max-width: 140px;
+    height: auto;
+}
+.navmenu{
+    display: flex;
+    
+
+}
+.navmenu a{
+    padding: 10px 20px;
+    color: #292929;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: all .42s ease;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navmenu a:hover{
+    color:crimson;
+    font-size: 18px;
+    background-color:floralwhite;
+    border-radius: 20px;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon .btn{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid rgb(194, 29, 29);
+    padding: 10px 30px;
+    background-color: #de2020;
+    border-radius: 30px;
+    color: white;
+    letter-spacing: 1px;
+    margin-right: 15px;
+    transition: all .42s ease;
+}
+.nav-icon .btn:hover{
+    transform: scale(1.1);
+   background-color: #dc1010;
+}
+#menu-icon{
+    font-size: 35px;
+color: #292929;
+z-index: 10001;
+cursor: pointer;
+display: none;
+}
+section{
+    padding: 60px 12%;
+
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://d4qwptktddc5f.cloudfront.net/houndstooth-coffee-official-design-dallas-bar.jpg');
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+align-items: center;
+gap: 2rem;
+background-attachment: fixed;
+
+}
+.home-text{
+    text-align: center;
+    margin-left: -300px;
+}
+.home-text a{
+    text-decoration: none;
+    color: #292929;
+    border-radius: 10%;
+    border: 1px solid powderblue;
+    background-color:powderblue;
+    padding: 10px;
+}
+.home-text a:hover{
+    background-color: aquamarine;
+
+}
+.bn{
+    padding: 10px 10px;
+}
+
+.btn2{
+    font-size: 17px;
+    font-weight: 500;
+    color: #292929;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    font-weight: bold;
+
+}
+.btn2 span i{
+    height: 50px;
+    width: 50px;
+    background: #de2020;
+    color: aliceblue;
+    font-size: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    transition: all .42s ease;
+
+}
+.btn2 span i:hover{
+    transform: translateY(-4px);
+    
+}
+#about{
+    background-image: url('https://i.pinimg.com/originals/f1/90/72/f19072459f4f64e9195f0342dfe82f16.jpg');
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.abt h1{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: beige;
+
+}
+
+.abt p{
+    text-align: justify;
+   color:black;
+}
+.abt a{
+    text-decoration: none;
+    color: #292929;
+    border-radius: 10%;
+    border: 1px solid cadetblue;
+    background-color: cadetblue;
+    padding: 10px;
+}
+.abt a:hover{
+    background-color: darkcyan;
+    color: whitesmoke;
+}
+.bt{
+    text-align: center;
+}
+
+.iconset{ display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+gap: 2rem;}
+.icon{
+  font-size: larger;
+}
+.iconset a:hover{
+    color: #dc1010;
+    
+}
+#contact{
+    background-color: black;
+}
+.socials h1{
+color: cadetblue;
+}
+
+#sg{
+   background-color:rgb(17, 15, 15);
+}
+.mb-3{
+    color: burlywood;
+}
+.container h1{
+    color: aliceblue;
+}
+.ftt{
+    text-align: center;
+    padding: 20px;
+}
+.menu{
+    align-items: center;
+    text-align: center;
+}
+.menuheading span{
+    color: lightskyblue;
+}
+.menuheading span:hover{
+    color: blue;
+}
+
+.menuheading{
+    text-align: center;
+}
+.menulist img{
+    width: 30%;
+}
+
+.fn{
+    height: 300px;
+}
+
+.b1{
+    border: 3px solid red;
+    border-radius: 20%;
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    margin-left: 0x;
+}
+.b2{
+    border: 3px solid red;
+    border-radius: 20%;
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    margin-left: 00px;
+}
+.b3{
+    border: 3px solid red;
+    border-radius: 20%;
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    margin-left: 00px;
+}
+.menulist{
+     
+}
+.b11{
+    padding: 10px 0px;
+}
+.b22{
+    padding: 10px 0px;
+}
+.b33{
+    padding: 10px 0px;
+    margin-left: 100px;
+}
+.mj{
+    width: 30%;
+
+}
+.b33 a:hover{
+    background-color: red;
+}
+.capp h3{
+    padding: 10px 0px;
+}
+.food img{
+    width: 30%;
+}
+.food h3{
+    padding: 10px 0px;
+}
+.menulist h1{
+    color:cornflowerblue;
+    padding: 10px 0px;
+}
+.food h1{
+    color: cornflowerblue;
+    padding: 20px 0px;
+}
+.more a{
+    border: 1px solid lightblue;
+    border-radius: 10%;
+    background-color: lightblue;
+    text-decoration: none;
+    color: black;
+    padding: 15px 10px;
+}
+.more{
+    text-align: center;
+}
+.more a:hover{
+    background-color: cadetblue;
+}
+.tables h1{
+    text-align: center;
+    padding: 10px 0px;
+}
+.imgg1 img{
+    width: 33%;
+    height: 270px;
+    border-radius: 20px;
+    padding: 12px 12px;
+}
+.imgg1{
+    padding: 20px 0px;
+}
+.imgg1 img:hover{
+    box-shadow: 10px 8px 12px 10px royalblue;
+}
+.location a{
+    text-decoration: none;
+    border: 3px solid royalblue;
+    padding: 15px 15px;
+    color: black;
+    border-radius: 13px;
+}
+.location{
+    text-align: center;
+}
+.location a:hover{
+    background-color: royalblue;
+    color: whitesmoke;
+}
+.new1{
+    display: flex;
+}
+#menu{
+    background-image: url('https://th.bing.com/th/id/R.8fc53fc5d0336c5eec2921c0033e33fc?rik=65RlXGkgclgjGw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f04%2fEverest-minimalist-wallpaper-light.png&ehk=N%2bYJgZ7joP5mgA1pc627eW%2bB%2fqpVltdNylJbllkbxs4%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+#table{
+    background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/itCjTBE/videoblocks-grey-tech-geometric-minimal-motion-background-video-seamless-looping-animation-ultra-hd-4k-3840x2160_rpz9lmvar7_thumbnail-1080_01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+#loctn{
+    background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/itCjTBE/videoblocks-grey-tech-geometric-minimal-motion-background-video-seamless-looping-animation-ultra-hd-4k-3840x2160_rpz9lmvar7_thumbnail-1080_01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.ftt{
+    color: lightslategrey;
+}
+
