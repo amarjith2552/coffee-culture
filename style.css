@@ -30,7 +30,7 @@ header{
 }
 .navmenu a{
     padding: 10px 20px;
-    color: #292929;
+    color: #ffffff;
     text-transform: capitalize;
     font-weight: 600;
     transition: all .42s ease;
@@ -79,7 +79,7 @@ section{
 .home{
     width: 100%;
     height: 100vh;
-    background-image: url('https://d4qwptktddc5f.cloudfront.net/houndstooth-coffee-official-design-dallas-bar.jpg');
+    background-image: url('https://img.freepik.com/premium-photo/restaurant-with-minimalist-concept_148840-7687.jpg');
     background-position: center;
     background-size: cover;
     display: grid;
@@ -92,6 +92,7 @@ background-attachment: fixed;
 .home-text{
     text-align: center;
     margin-left: -300px;
+    color: white;
 }
 .home-text a{
     text-decoration: none;
@@ -102,7 +103,7 @@ background-attachment: fixed;
     padding: 10px;
 }
 .home-text a:hover{
-    background-color: aquamarine;
+    background-color: rgb(164, 240, 215);
 
 }
 .bn{
@@ -270,6 +271,12 @@ color: cadetblue;
     width: 30%;
 
 }
+.fn:hover{
+    transform: scale(1.2);
+}
+.mj:hover{
+    transform: scale(1.2);
+}
 .b33 a:hover{
     background-color: red;
 }
@@ -308,6 +315,7 @@ color: cadetblue;
     text-align: center;
     padding: 10px 0px;
 }
+
 .imgg1 img{
     width: 33%;
     height: 270px;
@@ -359,3 +367,6 @@ color: cadetblue;
     color: lightslategrey;
 }
 
+.at:hover{
+transform: scale(1.2);
+}
